@@ -1,0 +1,22 @@
+{
+  "name": "cordova-plugin-auto-theme",
+  "version": "1.0.0",
+  "description": "Cordova Auto Theme Plugin",
+  "cordova": {
+    "id": "cordova-plugin-auto-theme",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": "github:terreng/cordova-plugin-auto-theme",
+  "bugs": "https://github.com/terreng/cordova-plugin-auto-theme/issues",
+  "keywords": [
+    "cordova",
+    "autotheme",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "terreng",
+  "license": "MIT",
+  "homepage": "https://github.com/terreng/cordova-plugin-auto-theme#readme"
+}
