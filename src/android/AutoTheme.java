@@ -15,6 +15,18 @@ import android.content.res.Configuration;
 public class AutoTheme extends CordovaPlugin {
 	
 	boolean wasDark = false;
+	
+	@Override
+    public void initialize(CordovaInterface cordova, CordovaWebView webView) {
+        super.initialize(cordova, webView);
+		
+		int uiMode = cordova.getActivity().getResources().getConfiguration().uiMode & Configuration.UI_MODE_NIGHT_MASK;
+		if (uiMode == Configuration.UI_MODE_NIGHT_YES) {
+			wasDark = true;
+		} else {
+			wasDark = false;
+		}
+	}
 
     @Override
     public boolean execute(String action, JSONArray data, CallbackContext callbackContext) throws JSONException {

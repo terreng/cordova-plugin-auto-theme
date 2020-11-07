@@ -2,6 +2,6 @@
 
 module.exports = {
     getTheme: function (successCallback, errorCallback) {
-        cordova.exec(successCallback, errorCallback, "AutoTheme", "getTheme");
+        cordova.exec(function(isdark) {if (isdark == "true") {successCallback(true)} else {successCallback(false)}}, errorCallback, "AutoTheme", "getTheme");
     }
 };
