@@ -17,7 +17,7 @@ AutoTheme.getTheme(function(isdark) {
 
 ## Events
 ```js
-//called whenver theme changes
+//called whenever theme changes
 window.onThemeChange = function(isdark) {
     console.log("Dark mode changed. Is dark mode: "+isdark)
 }
