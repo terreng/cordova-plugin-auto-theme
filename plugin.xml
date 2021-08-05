@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
         id="cordova-plugin-auto-theme"
-        version="1.0.2">
+        version="1.0.3">
     <name>Auto Theme</name>
-    <description>Cordova Auto Theme Plugin</description>
+    <description>A Cordova plugin for detecting if dark mode is enabled on Android</description>
     <license>MIT</license>
-    <keywords>cordova,dark theme,auto theme</keywords>
+    <keywords>cordova,dark theme,dark mode,autotheme,ecosystem:cordova,cordova-android</keywords>
     <repo>https://github.com/terreng/cordova-plugin-auto-theme.git</repo>
     <issue>https://github.com/terreng/cordova-plugin-auto-theme/issues</issue>
 
