@@ -12,6 +12,8 @@
   "bugs": "https://github.com/terreng/cordova-plugin-auto-theme/issues",
   "keywords": [
     "cordova",
+    "dark theme",
+    "dark mode",
     "autotheme",
     "ecosystem:cordova",
     "cordova-android"
